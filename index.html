@@ -24,7 +24,7 @@
 
   <!-- Header Section -->
   <header>
-    <div class=" shadow-lg">
+    <div class="shadow-lg">
       <div class="navbar max-w-7xl mx-auto">
         <div class="navbar-start">
           <div class="dropdown">
@@ -68,10 +68,9 @@
             </div> 
             <div class="drawer-side z-10 ">
               <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
-              <ul class="menu p-4 w-80 min-h-full bg-red-200 text-base-content">
+              <ul id="cartProducts" class="menu p-4 w-80 min-h-full bg-red-500 text-base-content">
                 <!-- Sidebar content here -->
-                <li><a>Sidebar Items 1</a></li>
-                <li><a>Sidebar Items 2</a></li>
+                
               </ul>
             </div>
           </div>
@@ -84,8 +83,29 @@
   </header>
 
   <!-- Main -->
- 
+  <main>
 
+    <div class="text-center mt-10">
+      <h1 class="text-5xl font-bold text-error mb-3">CHICKEN CRISPER® COMBOS</h1>
+      <p class="text-xl font-bold"><span class="text-error">Menu</span> › Chicken Crisper® Combos</p>
+      <p class="text-2xl font-bold mt-3">Find everything from Our Big Mouth Burgers®, our always sizzling,Full on Fajitas and our famous CHICKEN CRISPER®</p>
+    </div>
+  
+    <!-- Menu Dropdown -->
+    <div class="flex justify-end mt-6 lg:mr-72">
+      <select class="select select-bordered">
+        <option disabled selected>Menu</option>
+        <option>Chicken Soup</option>
+        <option>Fajitas</option>
+        <option>Chicken Masala</option>
+      </select>
+    </div>
+
+
+  
+
+  </main>
+<script src="./JS/index.js" ></script>
 </body>
 
 </html>
