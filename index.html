@@ -63,16 +63,22 @@
               <!-- Page content here -->
               <label for="my-drawer-4" class="lg:ml-80"><a class="indicator tab tab-active">
                 <i class="fa-solid fa-bag-shopping text-3xl"></i> 
-                <span class="indicator-item badge font-bold">5</span>
+                <span id="ind" class="indicator-item badge font-bold"></span>
               </a></label>
             </div> 
             <div class="drawer-side z-10 ">
               <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
-              <ul id="cartProducts" class="menu p-4 w-80 min-h-full bg-red-500 text-base-content">
+              <ul id="cartProducts" class="menu p-4 w-80 min-h-full bg-red-500 text-white">
                 <!-- Sidebar content here -->
                 
+                <p class="text-2xl my-3 font-bold">Total Price:<span id="totalPrice">0.00</span>$</p>
               </ul>
+
+             
+
+              
             </div>
+            
           </div>
           <button class="btn btn-error text-white lg:-ml-56">Order Now</button>
             </div>
@@ -115,7 +121,7 @@
         </figure>
         <div class="card-body">
           <h2 class="card-title">Chicken</h2>
-          <p class="font-bold">100 $/each</p>
+          <p class="font-bold"><span>100</span> $/each</p>
           <p>Chicken served with Rice & Beans,Tortilas,Salsa and Sour Cream</p>
           <div class="card-actions w-full">
             <button onclick="addToCart(this)" class="btn btn-error w-full text-white">Add to Order</button>
@@ -132,7 +138,7 @@
         </figure>
         <div class="card-body">
           <h2 class="card-title">Fajitas</h2>
-          <p class="font-bold">200 $/each</p>
+          <p class="font-bold"><span>200</span> $/each</p>
           <p>Chicken served with Rice & Beans,Tortilas,Salsa and Sour Cream</p>
           <div class="card-actions w-full">
             <button onclick="addToCart(this)" class="btn btn-error w-full text-white">Add to Order</button>
@@ -149,7 +155,7 @@
         </figure>
         <div class="card-body">
           <h2 class="card-title">Chicken Masala</h2>
-          <p class="font-bold">300 $/each</p>
+          <p class="font-bold"><span>300</span> $/each</p>
           <p>Chicken served with Rice & Beans,Tortilas,Salsa and Sour Cream</p>
           <div class="card-actions w-full">
             <button onclick="addToCart(this)" class="btn btn-error w-full text-white">Add to Order</button>
@@ -159,8 +165,11 @@
       </div>
     </div>
 
+    
+
   </main>
 <script src="./JS/index.js" ></script>
 </body>
 
 </html>
+
