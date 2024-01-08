@@ -19,7 +19,7 @@ function addToCart(target) {
                            '<p><span class="cart-price"></span> $/each</p>' +
                            '<div class="flex justify-between items-end mt-8">' +
                                '<div>' +
-                                   '<p class="text-2xl"><span class="decrease">-</span><span class="quantity p-1"></span><span class="increase">+</span></p>' +
+                                   '<p class="text-2xl"><span class="decrease">-</span><span class="quantity p-2 w-40 rounded-xl bg-white text-black"></span><span class="increase">+</span></p>' +
                                '</div>' +
                                '<div>' +
                                    '<p class="flex justify-end items-end totalPrice text-xl font-medium"> $</p>' +
